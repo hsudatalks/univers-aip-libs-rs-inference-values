@@ -1,0 +1,17 @@
+[package]
+name="univers-aip-lib-inference-values"
+version="0.1.0"
+edition="2021"
+rust-version="1.89"
+license="MIT OR Apache-2.0"
+description="Strict numeric prediction decoding and explicit JSON feature mapping"
+repository="https://github.com/hsudatalks/univers-aip-libs-rs-inference-values"
+publish=["univers"]
+readme="README.md"
+include=["Cargo.toml","Cargo.lock","README.md","src/**","tests/**","scripts/**",".cargo/config.toml"]
+[workspace]
+members=["."]
+resolver="2"
+[dependencies]
+anyhow="1"
+serde_json="1"
