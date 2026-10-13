@@ -1,5 +1,7 @@
 # Inference values
 
+GitHub Actions is disabled; the exact-SHA local owner gate is the release gate, and david-server publishers perform publication.
+
 `univers-aip-lib-inference-values@0.1.0` extracts reusable JSON mechanics from the
 former shared Signal ML adapter. It depends only on `serde_json` and `anyhow`.
 
